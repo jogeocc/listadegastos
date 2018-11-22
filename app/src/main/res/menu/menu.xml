@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- CADA ITEM es una opcion en tu menu, es muy importante darles un id el cual te permita saber que opcion fue pulsada-->
+    <!-- android:icon te permite ingresar un icono al opcion del menu-->
+    <!-- android:title es el titulo o mensaje que sale si no puede mostrar el icono-->
+    <!-- app:showAsAction="always" indica que siempte mostrara el icono de la opcion-->
+    <item
+        android:id="@+id/agregar"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="agregar"
+        app:showAsAction="always" />
+</menu>
